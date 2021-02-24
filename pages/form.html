@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">	<!meta charset="UTF-8">
+		<title></title>
+		<link href="../css/format.css" type="text/css" rel="Stylesheet">
+		<link href="list.css" type="text/css" rel="Stylesheet">
+	</head>
+	
+	<body BGcolor=#282829  text=white>
+		<h1>Form</h1>
+
+		<p id="prb">  <a href="../Index.html">Homepage</a>&emsp;&emsp;<A HREF = "characters.html">Main Characters</A>&emsp;&emsp;<A HREF = "contactos.html">Contactos</A></p>
+		<form>
+		<fieldset id="utilizador"> 
+			<legend>Identificacao do utilizador:</legend>
+		<p>Nome: <input type="text" name="tnome" id="cnome" size="60" maxlength="100" placeholder="Nome"></p>
+		<p>Password: <input type="password" name="tpassword" size="10" maxlength="10" placeholder="Password"></p>
+		<p>E-Mail: <input type="email" name="tmail" id="cmail" size="60" maxlength="100" placeholder="E-Mail"></p>
+		<fieldset id="Genero"><legend>Genero:</legend>
+			<input type="radio" name="tgenero" id="cmasc"> <label for="cmasc">Masculino</label>
+			<input type="radio" name="tgenero" id="cfem"> <label for="cfem">Feminino</label>
+		</fieldset>
+		<p>Data de Nascimento <input type="date" name="tnasc" id="cnasc"></p>
+		<br><input type="submit" value="Submit">
+		</fieldset>
+		</form>
+		
+	</body>
+</html>

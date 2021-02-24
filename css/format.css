@@ -1,0 +1,120 @@
+body {
+	text-align: center;
+	background-image: url('dmc5bg.png');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+	
+}
+
+
+
+#divleft { 
+	float:left;  
+}
+
+#divright { 
+	float:right;  
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 2px solid grey;
+}
+
+a:hover, a:active {
+  background-color: grey;
+}
+
+h1{
+	font-family: Broadway;
+	color: white;
+	font-size: 50px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+#menu{
+
+    display: block;
+    margin: auto;
+
+}
+
+#menu ul{
+
+    background-color: grey;
+    list-style: none;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+
+}
+
+#prbg{
+	font-weight: bold;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.6);
+    top: 50px;
+    left: 800px;
+	display: block;
+    margin: auto;
+}
+
+#prb{
+	font-weight: bold;
+	color: white;
+}
+
+
+#legenda{
+
+	font-size: 8px;
+
+}
+
+#down {
+
+	margin-top: 1000px;
+
+}
+ul{
+
+    list-style-type: none;
+
+}
+
+figure{
+
+	border: 2px #cfcfcf solid;
+	width: 1020px;
+}
+
+#frame{
+
+    float: center;
+    overflow: hidden;
+    margin: 0 50 0 15px;
+    background-color: grey;
+    height: 1000px;
+    width: 500px;
+    border: none;
+    background-color: transparent;
+
+}
+.divframe{
+    width: 500px;
+}
+.divimg{
+    width: 960px;
+
+}
+.divgeral{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
